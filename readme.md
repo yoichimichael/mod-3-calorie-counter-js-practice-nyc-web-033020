@@ -22,7 +22,7 @@ We want a place for users to keep track of their caloric intake.
         </div>
       </div>
       <div class="list-item-menu">
-        <a class="edit-button" uk-icon="icon: pencil"></a>
+        <a class="edit-button" uk-toggle="target: #edit-form-container" uk-icon="icon: pencil"></a>
         <a class="delete-button" uk-icon="icon: trash"></a>
       </div>
     </li>
