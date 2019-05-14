@@ -1,6 +1,8 @@
 ## Flatiron Calorie Counter
 *Hello, our client is trying to launch a calorie counter as a tool for their customers to use. We already have a functioning backend API where we can query and store data. However, our frontend developer had to take an unexpected leave of absence before finishing. We need your help to complete this *SPA (single page application). We are on a tight deadline and need you to have a functioning application by the EOD (end of day).*
 
+---
+
 ### Setup
 You can find the code for the backend API in the `./calorie-counter-api` directory. We are using postgresql instead of sqlite for this project so **make sure you have that installed**. How you can check to know for sure is run `psql` in your terminal.
 Afterwards, here are some set up instructions. In your terminal:
@@ -13,6 +15,8 @@ Afterwards, here are some set up instructions. In your terminal:
 As far as CRUD goes, the backend should have everything you need to `create`, `read` and `update` and `delete`. Still, we're counting on your abilities as a fullstack dev to figure out how the backend works by looking at the codebase.
 
 Take some time to understand the HTML layout that our previous frontend dev has already set up. For CSS library, he is using [UIkit](https://getuikit.com/). All those extra classes you see are for styling purposes. Feel free to add additional classes/ids at your discretion. *We would advise against removing things from the format of the current setup without good reasons.*
+
+---
 
 ### Here are the deliverables:
 We want a place for users to keep track of their caloric intake.
