@@ -1,7 +1,5 @@
 ## Flatiron Calorie Counter
-** 
-Hello, our client is trying to launch a calorie counter as a tool for their customers to use. We already have a functioning backend API where we can query and store data. However, our frontend developer had to take an unexpected leave of absence before finishing. We need your help to complete this *SPA (single page application)*. We are on a tight deadline and need you to have a functioning application by the EOD (end of day). 
-**
+*Hello, our client is trying to launch a calorie counter as a tool for their customers to use. We already have a functioning backend API where we can query and store data. However, our frontend developer had to take an unexpected leave of absence before finishing. We need your help to complete this *SPA (single page application). We are on a tight deadline and need you to have a functioning application by the EOD (end of day).*
 
 ### Setup
 You can find the code for the backend API in the `./calorie-counter-api` directory. We are using postgresql instead of sqlite for this project so **make sure you have that installed**. How you can check to know for sure is run `psql` in your terminal.
