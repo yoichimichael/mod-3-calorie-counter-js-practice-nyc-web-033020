@@ -14,7 +14,7 @@ Afterwards, here are some set up instructions. In your terminal:
 
 As far as CRUD goes, the backend should have everything you need to `create`, `read` and `update` and `delete`. Still, we're counting on your abilities as a fullstack dev to figure out how the backend works by looking at the codebase.
 
-Take some time to understand the HTML layout that our previous frontend dev has already set up. For CSS library, he is using [UIkit](https://getuikit.com/). All those extra classes you see are for styling purposes. Feel free to add additional classes/ids at your discretion. *We would advise against removing things from the format of the current setup without good reasons.*
+Take some time to understand the HTML layout that our previous frontend dev has already set up. For CSS library, the previous dev chose [UIkit](https://getuikit.com/). All those extra classes you see are for styling purposes. Feel free to add additional classes/ids at your discretion. *We would advise against removing things from the format of the current setup without good reasons.*
 
 ---
 
