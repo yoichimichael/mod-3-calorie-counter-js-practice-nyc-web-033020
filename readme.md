@@ -4,7 +4,7 @@ Hello, our client is trying to launch a calorie counter as a tool for their cust
 ---
 
 ### Setup
-You can find the code for the backend API in the `./calorie-counter-api` directory. We are using postgresql instead of sqlite for this project so **make sure you have that installed**. How you can check to know for sure is run `psql` in your terminal. If you do not have Postgres, use this [link](https://help.learn.co/articles/900121-mac-osx-manual-environment-set-up)
+You can find the code for the backend API in the `./calorie-counter-api` directory. We are using postgresql instead of sqlite for this project so **make sure you have that installed**. How you can check to know for sure is run `psql` in your terminal. 
 Afterwards, here are some set up instructions. In your terminal:
 
 * `$ cd ./calorie-counter-api`
