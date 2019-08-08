@@ -11,6 +11,7 @@ Afterwards, here are some set up instructions. In your terminal:
 * `$ bundle install`
 * `$ rails db:create`
 * `$ rails db:migrate`
+* `$ rails db:seed`
 
 As far as CRUD goes, the backend should have everything you need to `create`, `read` and `update` and `delete`. Still, we're counting on your abilities as a fullstack dev to figure out how the backend works by looking at the codebase.
 
