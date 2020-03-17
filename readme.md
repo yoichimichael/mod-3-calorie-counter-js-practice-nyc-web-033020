@@ -1,11 +1,11 @@
 ## Flatiron Calorie Counter
-Hello, our client is trying to launch a calorie counter as a tool for their customers to use. We already have a functioning backend API where we can query and store data. However, our frontend developer had to take an unexpected leave of absence before finishing. We need your help to complete this SPA (single page application). **_We are on a tight deadline and need you to have a functioning application by the EOD (end of day)._**
+Our client is trying to launch a calorie counter as a tool for their customers to use. We already have a functioning backend API where we can query and store data. However, our frontend developer had to take an unexpected leave of absence before finishing. We need your help to complete this SPA (single page application). **_We are on a tight deadline and need you to have a functioning application by the EOD (end of day)._**
 
 ---
 
 ### Setup
-You can find the code for the backend API in the `./calorie-counter-api` directory. We are using postgresql instead of sqlite for this project so **make sure you have that installed**. How you can check to know for sure is run `psql` in your terminal. 
-Afterwards, here are some set up instructions. In your terminal:
+You can find the code for the backend API in the `./calorie-counter-api` directory. We are using postgresql instead of sqlite for this project so **make sure you have that installed**. Check that it works by running `psql` in your terminal. 
+Finish setting up your app by running the following commands:
 
 * `$ cd ./calorie-counter-api`
 * `$ bundle install`
@@ -23,7 +23,7 @@ Take some time to understand the HTML layout that our previous frontend dev has 
 We want a place for users to keep track of their caloric intake.
 * Remove boiler-plate `<li>` tags and render `li.calories-list-item` elements with fetch response from backend API.
 * A user can record a new calorie intake which will be *prepended* to the list with pessimistic rendering.
-  * To keep the styling consistent, make sure the list-item you are prepending has the following format (you may additional attributes at your discretion):
+  * To keep the styling consistent, make sure the list-item you are prepending has the following format (you may add additional attributes at your discretion):
   ```html
    <li class="calories-list-item">
       <div class="uk-grid">
@@ -47,10 +47,10 @@ We want a place for users to keep track of their caloric intake.
   * This modal should contain a form pre-populated with the information from the respective calorie-entry.
   * clicking anywhere outside the modal will cause the modal to disappear.
   * clicking the 'Save Changes' button in the modal form will update that entry on the front-end as well as the backend, we would like this to happen pessimistically.
-  * This feature is complicated, we think you should work on it last.
+  * This feature is complicated; we think you should work on it last.
 
-We want want to give beginners an idea of how much calories they should be consuming. We'll use [Basal Metabolic Rate (BMR) formula](https://www.active.com/fitness/calculators/bmr) to accomplish this. Traditionally, there is a formula for female and male calcuation. We will be using both to return a range of number back to the user ie: 1200kcal - 1400kcal.
-* Clicking the "Calculate BMR" button should update the `span#lower-bmr-range` and `span#higher-bmr-range` with the appropriate values"
+We want want to give beginners an idea of how many calories they should be consuming. We'll use [Basal Metabolic Rate (BMR) formula](https://www.active.com/fitness/calculators/bmr) to accomplish this. Traditionally, there is a formula for female and male calcuation. We will be using both to return a range of numbers back to the user, e.g., 1200kcal - 1400kcal.
+* Clicking the "Calculate BMR" button should update the `span#lower-bmr-range` and `span#higher-bmr-range` with the appropriate values
   * forumla for lower-range: `BMR = 655 + (4.35 x weight in pounds) + (4.7 x height in inches) - (4.7 x age in years)`
   * formula for upper-range: `BMR = 66 + (6.23 x weight in pounds) + (12.7 x height in inches) - (6.8 x age in years)`
 * Clicking the calculate BMR button should also set the `#progress-bar`'s max attribute to the average of the two numbers above.
